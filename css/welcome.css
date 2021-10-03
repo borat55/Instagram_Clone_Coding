@@ -1,30 +1,36 @@
+.welcome_name {
+  font-family: "Satisfy", cursive;
+  font-size: 40px;
+  font-weight: 600;
+}
+
 .icon_goback {
   margin: 10px 0 0 10px;
 }
 
-.login-page {
+.welcome-page {
   margin-top: 250px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.login_name {
+.welcome_name {
   margin-bottom: 45px;
 }
-.login-page_creat-new-account,
-.login-page_login {
+.welcome-page_creat-new-account,
+.welcome-page_login {
   width: 290px;
   height: 40px;
   border: none;
   font-size: 12px;
 }
-.login-page_creat-new-account {
+.welcome-page_creat-new-account {
   background-color: #0097fe;
   color: white;
   border-radius: 4px;
 }
-.login-page_login {
+.welcome-page_login {
   background-color: transparent;
   border: none;
   color: #0097fe;
