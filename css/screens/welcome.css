@@ -26,13 +26,13 @@
   font-size: 12px;
 }
 .welcome-page_creat-new-account {
-  background-color: #0097fe;
+  background-color: var(--light_blue);
   color: white;
   border-radius: 4px;
 }
 .welcome-page_login {
   background-color: transparent;
   border: none;
-  color: #0097fe;
+  color: var(--light_blue);
   font-weight: 1000;
 }
