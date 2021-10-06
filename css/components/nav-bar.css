@@ -1,0 +1,19 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  background-color: white;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_btn img {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}

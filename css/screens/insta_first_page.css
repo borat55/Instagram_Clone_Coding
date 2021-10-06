@@ -1,7 +1,7 @@
 .insta_to_start {
   display: flex;
   justify-content: space-between;
-  margin: 20px;
+  margin: 10px 20px 15px 20px;
 }
 .insta_logo {
   font-family: var(--insta_new_font);
@@ -51,6 +51,7 @@
   border: 1px solid #d92670;
   padding: 2px;
   border-radius: 50%;
+  background-position: right;
 }
 .intro_main_post {
   display: flex;
@@ -72,13 +73,14 @@
 }
 .main_post {
   margin-top: 7px;
-  height: 35vh;
-  width: 100vw;
+  height: 385px;
+  width: 385px;
+  object-fit: cover;
 }
 .more_options {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .more_options i:not(:last-child) {
   margin-right: 15px;
@@ -92,14 +94,14 @@
 }
 .text_on_post {
   font-size: 13px;
-  margin: 12px 0 12px 0;
+  margin: 5px 0 5px 0;
 }
 .text_on_post_more {
   opacity: 0.4;
 }
 .reaction_on_post img {
-  height: 28px;
-  width: 28px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
 }
 .reaction_on_post {
@@ -114,7 +116,7 @@
   align-items: center;
 }
 .above_the_post_pic {
-  margin: 15px;
+  margin: 15px 15px 0 15px;
 }
 .text_on_post {
   line-height: 18px;
@@ -125,4 +127,11 @@
 }
 .reaction_on_post i {
   margin-right: 10px;
+}
+.reaction_on_post i:first-child {
+  color: red;
+}
+.reaction_on_post i:nth-child(2) {
+  color: #ffd164;
+  fill: #ffd164;
 }
