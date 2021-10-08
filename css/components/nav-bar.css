@@ -17,3 +17,15 @@
   width: 22px;
   border-radius: 50%;
 }
+.nav_link {
+  display: flex;
+}
+.nav_notification_dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: var(--notification_color);
+  position: absolute;
+  bottom: 23px;
+  right: 389px;
+}

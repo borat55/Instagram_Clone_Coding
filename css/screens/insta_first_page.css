@@ -15,6 +15,32 @@
   display: flex;
   align-items: center;
 }
+.notification_number {
+  height: 17px;
+  width: 17px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  background-color: var(--notification_color);
+  color: white;
+
+  border-radius: 50px;
+  position: absolute;
+  right: 11px;
+  top: 45px;
+}
+.notification_dot {
+  height: 8px;
+  width: 8px;
+  background-color: var(--notification_color);
+  position: absolute;
+  right: 59px;
+  top: 53px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
 .stories_from_people {
   display: flex;
   flex-direction: row;
@@ -30,7 +56,7 @@
   width: 72px;
   display: flex;
   border-radius: 50%;
-  border: 3px solid #d92670;
+  border: 3px solid var(--insta_pink_color);
   padding: 2px;
 }
 .story_from_individual span {
@@ -49,7 +75,7 @@
 .intro_main_post img {
   height: 32px;
   width: 32px;
-  border: 2px solid #d92670;
+  border: 2px solid var(--insta_pink_color);
   padding: 2px;
   border-radius: 50%;
   background-position: right;
@@ -102,10 +128,13 @@
   font-weight: 700;
 }
 .text_on_post {
-  font-size: 13px;
+  font-size: 15px;
   margin: 8px 0 8px 0;
 }
-
+.text_on_post_tag {
+  color: #275376;
+  font-weight: 600;
+}
 .text_on_post_more,
 .reaction_on_post_reply span {
   opacity: 0.5;

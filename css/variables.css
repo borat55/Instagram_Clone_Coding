@@ -4,3 +4,9 @@
 :root {
   --insta_new_font: "Satisfy", cursive;
 }
+:root {
+  --notification_color: #ff3051;
+}
+:root {
+  --insta_pink_color: #d92670;
+}
