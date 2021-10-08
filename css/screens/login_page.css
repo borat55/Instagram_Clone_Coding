@@ -1,9 +1,9 @@
 .login-page_name {
   font-family: "Satisfy", cursive;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 600;
   text-align: center;
-  margin: 155px 0 35px 0;
+  margin: 180px 0 45px 0;
 }
 .login-form {
   display: flex;
@@ -11,25 +11,23 @@
   align-items: center;
   margin: 0 15px 0 15px;
 }
-.login-form input {
-  width: 300px;
-  height: 40px;
-  margin-bottom: 13px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  padding: 0 15px;
-}
 .login-form input:not([type="submit"]) {
   border: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
+  padding: 0 15px;
+  width: 400px;
+  height: 45px;
+  margin-bottom: 13px;
+  border-radius: 5px;
 }
 .login-form input[type="submit"] {
-  width: 330px;
-  height: 40px;
+  width: 440px;
+  height: 45px;
   background-color: var(--light_blue);
   border: none;
   color: white;
   cursor: pointer;
+  border-radius: 5px;
 }
 .login-form input:focus {
   border-color: var(--light_blue);
@@ -38,7 +36,7 @@
   display: inline-block;
   text-align: right;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 .login-get_ur_pw_back a {
   font-size: 13px;
@@ -48,14 +46,13 @@
   color: var(--light_blue);
   font-weight: 600;
 }
-
 .login_page-or {
   /* width: 100%; */
   text-align: center;
   border-bottom: 1px solid #000000;
   opacity: 30%;
   line-height: 2px;
-  margin: 15px 20px 40px 20px;
+  margin: 20px 20px 55px 20px;
 }
 h2 span {
   background: #fff;
@@ -64,9 +61,15 @@ h2 span {
 .login_another-opt {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: var(--light_blue);
   font-weight: 600;
+}
+.login_another-opt i {
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
 }
 .login-create_new_account {
   display: flex;
@@ -77,4 +80,12 @@ h2 span {
   text-decoration: none;
   color: var(--light_blue);
   font-weight: 600;
+}
+.login-create_new_account {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 25px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
