@@ -2,6 +2,9 @@
   background-color: black;
   color: white;
 }
+.status-bar_inversion {
+  background-color: transparent;
+}
 .story-photo {
   display: flex;
   justify-content: center;
@@ -36,17 +39,25 @@
 .my_story_icon {
   margin-left: 15px;
 }
-#my_story_main {
+.my_story_main {
   height: 760px;
   width: 100%;
   border-radius: 10px;
+  margin-top: 45px;
   background: linear-gradient(360deg, #858484 0%, #535353 35%, #282828 100%);
 }
 .my_story_post {
   display: flex;
   align-items: center;
   height: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .my_story_post img {
   height: 300px;
+}
+.my_story_message {
+  display: flex;
+  margin-top: 30px;
 }

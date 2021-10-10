@@ -40,7 +40,7 @@
   border: 2px solid var(--insta_pink_color);
   padding: 2px;
   border-radius: 50%;
-  background-position: right;
+  /* background-position: right; */
 }
 .intro_main_post_user {
   display: flex;

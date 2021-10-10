@@ -1,7 +1,7 @@
 .insta_to_start {
   display: flex;
   justify-content: space-between;
-  margin: 10px 20px 15px 20px;
+  margin: 53px 20px 15px 20px;
 }
 .insta_logo {
   font-family: var(--insta_new_font);
