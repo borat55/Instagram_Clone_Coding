@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
+    <title>Boram's Story-Instagram</title>
 </head>
 <body class="my_story">
     <div class="status-bar status-bar_inversion">
@@ -36,23 +36,26 @@
             </div>
             <div class="my_story_icons">
                 <i class="fas fa-ellipsis-h fa-sm"></i>
-                <i class="fas fa-times fa-2x my_story_icon"></i>
-            </div>
+                <a href="insta_first_page.html">
+                    <i class="fas fa-times fa-2x my_story_icon"></i>
+                </a>
+                </div>
         </div>
 
         <div class="my_story_post">
-            <img src="image/IMG_4888.jpg" title="">
+            <div class="my_story_post_img">
+                <img src="image/IMG_4888.jpg" title="salt desert in Uyuni with friends">
+                    <div class="my_story_post_text">in Uyuni</div>
+            </div>
         </div>
     </main>
 
-    <div>
-        <div class="my_story_message">
-            <div class="my_story_message_write">To send a message</div>
-            <a class="my_likes_messages_link my_story_message_send" href="#">
-                <i class="my_likes_messages far fa-paper-plane fa-lg"></i>
-            </a>
-        </div>
-    </div>
+    <form class="my_story_message">
+        <input class="my_story_message_write" type="text" placeholder="To send a message"></input>
+        <button class="my_story_message_send" href="#">
+            <i class="my_likes_messages far fa-paper-plane fa-lg"></i>
+        </button>
+    </form>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js"
     crossorigin="anonymous"

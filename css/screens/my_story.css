@@ -38,6 +38,10 @@
 }
 .my_story_icon {
   margin-left: 15px;
+  transition: var(--active);
+}
+.my_story_icon:hover {
+  color: var(--insta_pink_color);
 }
 .my_story_main {
   height: 760px;
@@ -47,8 +51,6 @@
   background: linear-gradient(360deg, #858484 0%, #535353 35%, #282828 100%);
 }
 .my_story_post {
-  display: flex;
-  align-items: center;
   height: 88%;
   display: flex;
   align-items: center;
@@ -57,7 +59,46 @@
 .my_story_post img {
   height: 300px;
 }
+.my_story_post_img {
+  position: relative;
+}
+.my_story_post_text {
+  font-style: italic;
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-weight: 600;
+}
 .my_story_message {
   display: flex;
   margin-top: 30px;
+}
+.my_story_message {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my_story_message input {
+  width: 75%;
+  height: 15px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px 0 15px 20px;
+  font-size: 17px;
+}
+.my_story_message_send {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+.my_story_message_send i {
+  color: white;
+  padding: 5px 0;
+  font-size: 23px;
 }

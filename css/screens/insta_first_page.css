@@ -20,7 +20,7 @@
   text-align: center;
   font-size: 11px;
   font-weight: 600;
-  margin: 8px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 .intro_main_post {
   border-top: var(--main_border);
@@ -29,7 +29,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 5px 0 5px;
+  padding: 7px 5px 0 5px;
 }
 .intro_main_post i {
   margin-right: 10px;
@@ -76,6 +76,8 @@
 }
 .above_the_post_more_pic {
   position: relative;
+  display: inline-block;
+  margin-left: 30px;
 }
 .above_the_post_blue_dot {
   height: 6px;
