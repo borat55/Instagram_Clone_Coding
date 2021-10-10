@@ -1,3 +1,9 @@
+.icon_goback_link {
+  transition: var(--active);
+}
+.icon_goback_link:hover {
+  color: var(--insta_pink_color);
+}
 .login-page_name {
   font-family: "Satisfy", cursive;
   font-size: 45px;
@@ -15,19 +21,23 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
   padding: 0 15px;
-  width: 400px;
+  width: 370px;
   height: 45px;
   margin-bottom: 13px;
   border-radius: 5px;
 }
 .login-form input[type="submit"] {
-  width: 440px;
+  width: 400px;
   height: 45px;
   background-color: var(--light_blue);
   border: none;
   color: white;
   cursor: pointer;
   border-radius: 5px;
+  transition: background-color 0.5s ease-in-out;
+}
+.login-form input[type="submit"]:hover {
+  background-color: var(--insta_pink_color);
 }
 .login-form input:focus {
   border-color: var(--light_blue);
@@ -66,6 +76,7 @@ h2 span {
   color: var(--light_blue);
   font-weight: 600;
 }
+
 .login_another-opt i {
   margin-right: 10px;
   position: relative;

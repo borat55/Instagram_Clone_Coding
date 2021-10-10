@@ -10,3 +10,6 @@
 :root {
   --insta_pink_color: #d92670;
 }
+:root {
+  --active: color 0.5s ease-in-out;
+}

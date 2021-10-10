@@ -1,3 +1,52 @@
 .my_story {
   background-color: black;
+  color: white;
+}
+.story-photo {
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+}
+.story-photo_bar {
+  background-color: rgba(248, 246, 246, 0.897);
+  width: 65px;
+  height: 2px;
+}
+.story-photo span:first-child {
+  margin-right: 3px;
+  width: 200px;
+}
+.story-photo span:nth-child(4) {
+  background-color: rgba(195, 195, 195, 0.623);
+}
+.intro_main_post i {
+  margin-right: 10px;
+}
+.my_story_user img {
+  border: none;
+}
+.my_story_user_menu {
+  margin: 0 5px 0 17px;
+  border: none;
+}
+.my_story_icons {
+  display: flex;
+  align-items: center;
+}
+.my_story_icon {
+  margin-left: 15px;
+}
+#my_story_main {
+  height: 760px;
+  width: 100%;
+  border-radius: 10px;
+  background: linear-gradient(360deg, #858484 0%, #535353 35%, #282828 100%);
+}
+.my_story_post {
+  display: flex;
+  align-items: center;
+  height: 88%;
+}
+.my_story_post img {
+  height: 300px;
 }

@@ -1,0 +1,42 @@
+.insta_to_start {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px 15px 20px;
+}
+.insta_logo {
+  font-family: var(--insta_new_font);
+  font-size: 28px;
+  font-weight: 600;
+  text-align: left;
+  margin: 20px 0 15px 17;
+}
+.my_likes_messages {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.notification_number {
+  height: 17px;
+  width: 17px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  background-color: var(--notification_color);
+  color: white;
+  border-radius: 50px;
+  position: absolute;
+  right: 11px;
+  top: 45px;
+}
+.notification_dot {
+  height: 8px;
+  width: 8px;
+  background-color: var(--notification_color);
+  position: absolute;
+  right: 59px;
+  top: 53px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
