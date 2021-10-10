@@ -23,7 +23,7 @@
   margin: 8px 0 10px 0;
 }
 .intro_main_post {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main_border);
   padding-top: 7px;
   display: flex;
   flex-direction: row;
@@ -74,6 +74,23 @@
 .more_options i:not(:last-child) {
   margin-right: 15px;
 }
+.above_the_post_more_pic {
+  position: relative;
+}
+.above_the_post_blue_dot {
+  height: 6px;
+  width: 6px;
+}
+.above_the_post_blue_dot:first-child {
+  background-color: var(--light_blue);
+  top: 8px;
+}
+.above_the_post_blue_dot:last-child {
+  background-color: rgba(0, 0, 0, 0.2);
+  order: 0;
+  top: 8px;
+  right: 49px;
+}
 .like_on_post {
   font-size: 15px;
 }
@@ -91,7 +108,7 @@
 }
 .text_on_post_more,
 .reaction_on_post_reply span {
-  opacity: 0.5;
+  color: var(--gray_font_color);
   font-weight: 600;
 }
 .reaction_on_post img {

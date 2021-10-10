@@ -59,10 +59,10 @@
 .login_page-or {
   /* width: 100%; */
   text-align: center;
-  border-bottom: 1px solid #000000;
-  opacity: 30%;
+  border-bottom: var(--main_border);
+  color: var(--gray_font_color);
   line-height: 2px;
-  margin: 20px 20px 55px 20px;
+  margin: 35px 20px 45px 20px;
 }
 h2 span {
   background: #fff;
@@ -98,5 +98,5 @@ h2 span {
   bottom: 0;
   box-sizing: border-box;
   padding: 25px 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main_border);
 }

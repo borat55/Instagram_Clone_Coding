@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   padding: 15px 30px 30px 30px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main_border);
   box-sizing: border-box;
   background-color: white;
 }
