@@ -8,20 +8,53 @@
 .story-photo {
   display: flex;
   justify-content: center;
-  padding-top: 7px;
+  margin: 0 7px;
+  padding: 7px 0;
 }
 .story-photo_bar {
   background-color: rgba(248, 246, 246, 0.897);
   width: 65px;
   height: 2px;
 }
-.story-photo span:first-child {
+.story-photo span {
   margin-right: 3px;
   width: 200px;
 }
-.story-photo span:nth-child(4) {
-  background-color: rgba(195, 195, 195, 0.623);
+
+.story-photo_bar:last-child {
+  position: relative;
+  background: rgba(195, 195, 195, 0.13);
 }
+.story-photo_bar-inner {
+  width: 200px;
+  height: 2px;
+  position: absolute;
+  background-color: rgba(248, 246, 246, 0.897);
+  top: 0px;
+  bottom: 0px;
+  z-index: 0;
+  transform-origin: 0% 100%;
+  animation: loader 5s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    width: 0px;
+  }
+  70% {
+    width: 100%;
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+    width: 100%;
+  }
+  100% {
+    opacity: 0;
+    width: 0px;
+  }
+}
+
 .intro_main_post i {
   margin-right: 10px;
 }
