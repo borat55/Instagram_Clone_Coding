@@ -13,8 +13,14 @@
   width: 68px;
   display: flex;
   border-radius: 50%;
+}
+.story_from_individual:first-child img {
   border: 3px solid var(--insta_pink_color);
   padding: 2px;
+}
+.story_from_individual:not(:first-child) img {
+  border: 1px solid var(--gray_font_color);
+  padding: 4px;
 }
 .story_from_individual span {
   text-align: center;

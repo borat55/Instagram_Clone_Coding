@@ -15,6 +15,12 @@
   display: flex;
   align-items: center;
 }
+.my_likes_messages_link:not(:first-child) {
+  transition: var(--active);
+}
+.my_likes_messages_link:not(:first-child):hover {
+  color: var(--insta_pink_color);
+}
 .notification_number {
   height: 17px;
   width: 17px;
@@ -29,6 +35,19 @@
   position: absolute;
   right: 11px;
   top: 45px;
+  animation: ani_num 2s infinite linear;
+  will-change: transform;
+}
+@keyframes ani_num {
+  0% {
+    transform: translateY(1px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(1px);
+  }
 }
 .notification_dot {
   height: 8px;

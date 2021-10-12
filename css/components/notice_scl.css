@@ -1,4 +1,4 @@
-.notice_ani {
+.notice_scl {
   transition: var(--active);
   animation: clickHere 1s linear infinite;
   animation-delay: 5s;
@@ -15,6 +15,6 @@
     transform: none;
   }
 }
-.notice_ani:hover {
+.notice_scl:hover {
   color: var(--insta_pink_color);
 }
