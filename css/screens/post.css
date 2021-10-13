@@ -1,0 +1,56 @@
+.select_pic {
+  margin: 50px 15px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select_pic_next {
+  color: var(--light_blue);
+}
+.select_pic_new_post,
+.select_pic_next {
+  font-size: 17px;
+}
+.chosen_pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chosen_pic img {
+  width: 430px;
+  height: 430px;
+  object-fit: contain;
+}
+.pic_option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px;
+}
+.pic_option_column:last-child {
+  display: flex;
+}
+.pic_option_column span,
+.pic_option_column_icon:first-child {
+  margin-right: 10px;
+}
+.pic_option_column_icon {
+  border: none;
+  padding: 9px;
+  border-radius: 50%;
+  background-color: #1c1d21;
+}
+.choose_a_pic {
+  display: flex;
+  flex-wrap: wrap;
+}
+.choose_a_pic div {
+  width: 105px;
+  height: 105px;
+  display: flex;
+  align-items: center;
+}
+.choose_a_pic img {
+  object-fit: contain;
+  width: 105px;
+}

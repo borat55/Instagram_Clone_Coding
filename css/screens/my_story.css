@@ -2,9 +2,6 @@
   background-color: black;
   color: white;
 }
-.status-bar_inversion {
-  background-color: transparent;
-}
 .story-photo {
   display: flex;
   justify-content: center;
