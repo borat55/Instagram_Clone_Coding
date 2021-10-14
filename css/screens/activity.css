@@ -2,7 +2,6 @@
   font-size: 17px;
   font-weight: 600;
   margin-bottom: 22px;
-  margin-left: 18px;
   opacity: 0.8;
 }
 .border {
@@ -27,8 +26,8 @@ h4 {
 .pic_square {
   height: 47px;
   width: 47px;
+  margin-left: 15px;
 }
-
 .activity_week {
   width: 90%;
 }
@@ -36,6 +35,8 @@ h4 {
   width: 90px;
   height: 30px;
   border-radius: 5px;
+  font-size: 14px;
+  margin-left: 15px;
   background-color: var(--light_blue);
   display: flex;
   justify-content: center;
@@ -58,4 +59,11 @@ h4 {
 }
 .activity_alarm {
   width: 100vw;
+}
+.activity_week_text {
+  width: 75%;
+}
+.activity_week_text span:last-child {
+  margin-left: 3px;
+  font-size: 15px;
 }
