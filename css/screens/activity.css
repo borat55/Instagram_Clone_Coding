@@ -1,0 +1,61 @@
+.follow_request {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 22px;
+  margin-left: 18px;
+  opacity: 0.8;
+}
+.border {
+  border: var(--main_border);
+}
+h4 {
+  margin: 9px 0 25px 18px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.activity_week {
+  display: flex;
+  justify-content: space-between;
+  margin: 17px 18px;
+}
+.pic_circle {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+.pic_square {
+  height: 47px;
+  width: 47px;
+}
+
+.activity_week {
+  width: 90%;
+}
+.follow_btn {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: var(--light_blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow_btn span {
+  color: white;
+}
+.activity_week_follow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.active_time {
+  color: var(--time_notice_color);
+  font-weight: 500;
+}
+.active_id {
+  font-weight: 500;
+}
+.activity_alarm {
+  width: 100vw;
+}
