@@ -1,0 +1,17 @@
+.message_menu {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.message_menu div {
+  width: 25%;
+  padding-bottom: 13px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+.message_menu div:nth-child(2) {
+  border-bottom: 2px solid black;
+}

@@ -16,6 +16,7 @@
 @import "screens/my_story.css";
 @import "screens/post.css";
 @import "screens/activity.css";
+@import "screens/message.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
