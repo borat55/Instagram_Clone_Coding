@@ -107,6 +107,7 @@
   cursor: pointer;
   outline: none;
   padding: 0;
+  cursor: not-allowed;
 }
 .my_story_message_send i {
   color: white;

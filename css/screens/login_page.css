@@ -55,6 +55,7 @@
   margin-right: 5px;
   color: var(--light_blue);
   font-weight: 600;
+  cursor: not-allowed;
 }
 .login_page-or {
   /* width: 100%; */
@@ -75,6 +76,7 @@ h2 span {
   text-decoration: none;
   color: var(--light_blue);
   font-weight: 600;
+  cursor: not-allowed;
 }
 
 .login_another-opt i {
@@ -91,6 +93,7 @@ h2 span {
   text-decoration: none;
   color: var(--light_blue);
   font-weight: 600;
+  cursor: not-allowed;
 }
 .login-create_new_account {
   position: fixed;

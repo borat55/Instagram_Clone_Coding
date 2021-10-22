@@ -7,6 +7,9 @@
 .select_pic_next {
   color: var(--light_blue);
 }
+.select_pic_next a {
+  cursor: not-allowed;
+}
 .select_pic_new_post,
 .select_pic_next {
   font-size: 17px;
@@ -39,6 +42,14 @@
   padding: 9px;
   border-radius: 50%;
   background-color: #1c1d21;
+}
+.pic_option_column i {
+  cursor: not-allowed;
+}
+.choose_a_pic_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .choose_a_pic {
   display: flex;

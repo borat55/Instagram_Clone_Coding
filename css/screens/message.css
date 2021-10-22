@@ -1,7 +1,6 @@
 .message_menu {
   display: flex;
   justify-content: center;
-  margin: 0 20px;
   font-weight: 600;
   margin-bottom: 18px;
 }
@@ -14,4 +13,13 @@
 }
 .message_menu div:nth-child(2) {
   border-bottom: 2px solid black;
+}
+.msg_box_user_pic {
+  height: 55px;
+  width: 55px;
+}
+.mgs_box_column_txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
