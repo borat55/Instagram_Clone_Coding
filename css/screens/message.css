@@ -15,11 +15,29 @@
   border-bottom: 2px solid black;
 }
 .msg_box_user_pic {
-  height: 55px;
-  width: 55px;
+  height: 60px;
+  width: 60px;
 }
 .mgs_box_column_txt {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.msgbox_msg {
+  color: #b2b2b2;
+  display: inline-block;
+  padding-top: 5px;
+}
+.msg_img_active_dot {
+  position: relative;
+}
+.active_dot_green {
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background-color: #00cf00;
+  position: absolute;
+  right: 13px;
+  top: 40px;
 }
