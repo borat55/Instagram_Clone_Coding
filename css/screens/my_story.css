@@ -1,6 +1,8 @@
 .my_story {
   background-color: black;
   color: white;
+  height: 100vh;
+  width: 100%;
 }
 .story-photo {
   display: flex;
@@ -54,7 +56,7 @@
 }
 
 .my_story_main {
-  height: 760px;
+  height: 80%;
   width: 100%;
   border-radius: 10px;
   margin-top: 45px;
@@ -80,16 +82,12 @@
   bottom: 10px;
   font-weight: 600;
 }
+
 .my_story_message {
-  display: flex;
   margin-top: 30px;
-}
-.my_story_message {
-  position: fixed;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .my_story_message input {
   width: 75%;
